@@ -1,0 +1,12 @@
+# replace your values and rename the file to terraform.tfvars
+# neuvector settings
+tag="4.1.0"
+scanner_replicas = "1"
+controller_replicas = "1"
+webui_service = "NodePort"
+# Set to true, if the container runtime is containerd
+containerd = "true"
+
+# dockerhub settings
+registry_username   = "dockerhub-user"
+registry_password   = "dockerhub-pass"
